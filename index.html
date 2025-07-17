@@ -12,18 +12,30 @@ h1{
     text-align: center;
 }
 .tabletitle {
-color: chocolate;
+color: rgb(255, 106, 0);
+
 font-size: 20px;
 font: bold;
 }
 table {
-    
-   background-color: blueviolet;
+
+   background-color: rgba(144, 96, 189, 0.377);
 border-color: crimson;
 text-align: center;
     
 }
+#title
+{
+    background-color: rgba(83, 39, 112, 0.521);
+}
 
+body{
+background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+
+}
     </style>
     <title >First webpage test</title>
     <link rel="icon" type="image/png" href="icon_crafting.png">
@@ -34,7 +46,7 @@ text-align: center;
     <header><h1>This is Study schedule</h1></header>
 
 <table  border =4px >
-<tr class="tabletitle">
+<tr class="tabletitle" id="title" >
 <th>day</th>
 <th>time</th>
 <th>class</th>
@@ -42,20 +54,20 @@ text-align: center;
 <th>notes</th>
 </tr>
 <tr>
-<td>Sunday</td>
+<td class="tabletitle" >Sunday</td>
 <td>11:45 - 13:00</td>
 <td>Cyber lab</td>
 <td rowspan="4">internet programing</td>
 <td>no notes</td>
 </tr>
 <tr>
-<td>Monday</td>
+<td class="tabletitle">Monday</td>
 <td>11:45-13:00</td>
 <td>Cyber lab</td>
 <td>no notes</td>
 </tr>
 <tr>
-<td>Tuesday</td>
+<td class="tabletitle">Tuesday</td>
 <td rowspan="2">2:00-3:00</td>
 <td >Cyber lab</td>
 <td>no notes</td>
@@ -63,7 +75,7 @@ text-align: center;
 </tr>
 
 <tr>
-    <td>Wednesday</td>
+    <td class="tabletitle">Wednesday</td>
     <td>Cyber lab</td>
     <td>no notes</td>
 </tr>
